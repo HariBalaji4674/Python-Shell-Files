@@ -6,6 +6,8 @@
 
 top >> content.txt
 
+sudo yum install htop 
+
 htop >> content.txt
 
 free -h >> content.txt
