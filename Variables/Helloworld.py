@@ -22,3 +22,21 @@ if match:
     print("Match found:", match.group())
 else:
     print("No match")
+
+
+name="Peddireddy"
+print(name)
+
+a =10
+b=20
+def addition():
+    return (a+b)
+
+print(addition())
+
+def substraction():
+    a = addition()
+    b = 10
+    return (a-b)
+
+print(substraction())
