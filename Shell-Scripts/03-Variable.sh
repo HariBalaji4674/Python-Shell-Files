@@ -2,6 +2,6 @@
 
 echo "Hello World Program To be executed"
 
-DATE=$date
+DATE=$(date)
 
 echo "todays Date is $DATE"
