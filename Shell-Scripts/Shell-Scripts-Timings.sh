@@ -1,6 +1,15 @@
-Shell Scripts Session - 1:
+Shell Scripts Session - 12:
     00:00 -- Version Control Explanation
     10:00 -- SSH & Multiple GitHub Account Addition to Config 
     35:00 -- Shell Script First "Hello World"
     48:00 -- Variables in Shell Script
+    01:00:00 -- Addition Program in Shell
+    01:05:00 -- Read Command in shell script
+    01:15:00 -- Arrays in Shell Script
+
+Shell Scripts Session - 13:
+    00:00 -- Recap Of Shell Script
+    02:00 -- Conditions in shell Scripting
+    
+    
 
