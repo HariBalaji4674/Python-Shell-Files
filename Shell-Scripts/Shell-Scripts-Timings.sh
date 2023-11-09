@@ -10,6 +10,7 @@ Shell Scripts Session - 12:
 Shell Scripts Session - 13:
     00:00 -- Recap Of Shell Script
     02:00 -- Conditions in shell Scripting
-    
+    20:00 -- Exit Status Shell Script
+    30:00 -- Functions in Shell Script
     
 

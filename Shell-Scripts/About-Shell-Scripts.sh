@@ -50,5 +50,7 @@ $? --> This represents the previous commands status either 0 or 1
 $? == 0  --> represents the previous command is success
 $? == 1  --> represents the previous command is failure
 
+Functions in shell script:
 
+    validation 
     
