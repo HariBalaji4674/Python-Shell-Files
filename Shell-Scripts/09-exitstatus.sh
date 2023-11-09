@@ -2,7 +2,7 @@
 
 #exit status checking
 
-sudo yum install git -y
+sudo yum install git
 
 if [ $? -eq 0 ]
 then
