@@ -4,7 +4,7 @@
 
 sudo yum install git
 
-if [ $? -eq 0 ]
+if [ $? == 0 ]
 then
     echo "This Command is executed"
 else
