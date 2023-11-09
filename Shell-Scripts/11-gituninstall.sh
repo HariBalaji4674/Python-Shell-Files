@@ -6,7 +6,7 @@ userid=$(id -u)
 
 echo "The command is ${userid}"
 
-sudo yum uninstall git -y 
+sudo yum remove git -y 
 
 if [ $? -ne 0 ]
 then
