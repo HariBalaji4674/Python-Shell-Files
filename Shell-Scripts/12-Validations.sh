@@ -13,3 +13,5 @@ validation(){
         echo "Installation is Success"
     fi
 }
+
+validation 
