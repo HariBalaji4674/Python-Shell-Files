@@ -43,24 +43,24 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 
 validation $? "jenkins Repo Adding"
 
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key &>> $LogFile
 
 validation $? "Importing the key"
 
-sudo yum upgrade
+sudo yum upgrade -y &>> $LogFile
 
 validation $? "Upgrading is "
 
 # Add required dependencies for the jenkins package
-sudo yum install fontconfig java-17-openjdk -y 
+sudo yum install fontconfig java-17-openjdk -y &>> $LogFile
 
 validation $? "Java Installation"
 
-sudo yum install jenkins -y 
+sudo yum install jenkins -y &>> $LogFile
 
 validation $? "jenkins"
 
-sudo systemctl daemon-reload
+sudo systemctl daemon-reload &>> $LogFile
 
 validation $? "Daemon-reload "
 
