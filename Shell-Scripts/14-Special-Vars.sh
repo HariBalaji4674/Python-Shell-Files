@@ -21,16 +21,19 @@ validation() {
     if [ $1 -ne 0 ]
     then
         echo "$2 is Failure"
-        exit 1
     else
         echo "$2 is Success"
     fi
 }
 
-sudo yum install jenkins -y &>> $LogFile
+sudo yum install mysql -y &>> $LogFile
 
-validation $? "Jenkins"
+validation $? "mysql"
 
 sudo yum install git -y &>> $LogFile
 
 validation $? "git" 
+
+sudo yum install nginx -y &>> $LogFile
+
+validation $? "nginx" 
