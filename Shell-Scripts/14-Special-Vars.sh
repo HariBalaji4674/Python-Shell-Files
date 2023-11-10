@@ -15,4 +15,4 @@ LogFile=/tmp/$ScriptName-$Date.log
 
 echo "My Script Name is = ${LogFile}"
 echo "Date is = ${Date}"
-echo "Script Name = ${ScriptName}
+echo "Script Name = ${ScriptName}"
