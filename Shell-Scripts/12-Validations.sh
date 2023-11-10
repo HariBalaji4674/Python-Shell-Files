@@ -16,7 +16,7 @@ validation(){
 
 sudo yum update -y 
 
-validation $1 "Update" 
+validation $1 Update 
 
 sudo yum install -y mariadb-server
 
