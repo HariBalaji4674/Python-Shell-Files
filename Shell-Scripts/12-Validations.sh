@@ -14,4 +14,6 @@ validation(){
     fi
 }
 
+sudo yum install mysql -y
+
 validation $1 "MySql" 
