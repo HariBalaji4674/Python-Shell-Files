@@ -6,31 +6,31 @@
 # $? == 1 --> Failure
 
 validation(){
-    if [ $1 == 0 ]
+    if [ $1 -eq 0 ]
     then
-        echo "$2 is Failure"
-    else
         echo "$2 is Success"
+    else
+        echo "$2 is Failure"
     fi
 }
 
 sudo yum update -y 
 
-validation $1 Update 
+validation $? "Update" 
 
 sudo yum install -y mariadb-server
 
-validation $1 "Mariadb-server" 
+validation $? "Mariadb-server" 
 
 sudo systemctl enable mariadb
 
-validation $1 "enables maria db " 
+validation $? "enables maria db " 
 
 sudo systemctl start mariadb
 
-validation $1 "started mariadb" 
+validation $? "started mariadb" 
 
 sudo mysql_secure_installation
 
-validation $1 "Secure Installation" 
+validation $? "Secure Installation" 
 
