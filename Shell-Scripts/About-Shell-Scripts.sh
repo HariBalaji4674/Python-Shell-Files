@@ -52,5 +52,33 @@ $? == 1  --> represents the previous command is failure
 
 Functions in shell script:
 
-    validation 
+    validation (){
+        conditions to be written here
+    }
+
+Redirections in Shell Script:
+
+    > represents adding content to the file 
+    >> represents the appending the content to the file 
+    1> --> represents the success in redirections
+    2> --> represents the failure in redirections
+    &> --> reprents the success and failure messages
+    &>> --> represents the appending the both succcess and failure messages
+
+Formatting in Shell Scripting:
+
+    date + %F-%H-%M-%S
+    date +%F:%M:%S:%MM
+    % --> Represents the Formatting the linux shell
+
+Special Variables:
+    
+    $0 --> represents the script name
+    $? --> Represents exit status
+    $# --> No of Arguments Passed
+    $@ --> Print all the arguments passed over CLI
+    $1 --> First Variable
+    $2 --> Second Variable
+
+
     

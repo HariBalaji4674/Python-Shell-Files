@@ -12,5 +12,6 @@ Shell Scripts Session - 13:
     02:00 -- Conditions in shell Scripting
     20:00 -- Exit Status Shell Script
     30:00 -- Functions in Shell Script
-    
+    41:00 -- Redirections in Shell Script
+    47:00 -- Formatting In shell script
 
