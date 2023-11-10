@@ -16,7 +16,7 @@ echo -e  " $G Var1 = ${var1} $N"
 echo -e  "$R var2 = ${var2} $N"
 
 echo -e  " $C No of Arguments = $# $N "
-echo -e  "$W All Arguments = $@ $N"
+echo -e  "$M All Arguments = $@ $N"
 echo -e  "Script Name is = $0"
 ScriptName=$0
 Date=$(date +%F)
