@@ -2,27 +2,36 @@
 
 var1=$1
 var2=$2
+N="\e[0m"
+B="\e[30m"
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+B="\e[34m"
+M="\e[35m"
+C="\e[36m"
+W="\e[37m"
 
-echo "Var1 = ${var1}"
-echo "var2 = ${var2}"
+echo -e  " $G Var1 = ${var1} $N"
+echo -e  "$R var2 = ${var2} $N"
 
-echo "No of Arguments = $#"
-echo "All Arguments = $@"
-echo "Script Name is = $0"
+echo -e  " $C No of Arguments = $# $N "
+echo -e  "$W All Arguments = $@ $M"
+echo -e  "Script Name is = $0"
 ScriptName=$0
 Date=$(date +%F)
 LogFile=/tmp/$ScriptName-$Date.log
 
-echo "My Script Name is = ${LogFile}"
-echo "Date is = ${Date}"
-echo "Script Name = ${ScriptName}"
+echo -e  "My Script Name is = ${LogFile}"
+echo -e  "Date is = ${Date}"
+echo -e  "Script Name = ${ScriptName}"
 
 validation() {
     if [ $1 -ne 0 ]
     then
-        echo "$2 is Failure"
+        echo -e  "$2 is Failure"
     else
-        echo "$2 is Success"
+        echo -e  "$2 is Success"
     fi
 }
 
