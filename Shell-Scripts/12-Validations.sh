@@ -14,6 +14,23 @@ validation(){
     fi
 }
 
-sudo yum install mysql -y
+sudo yum update -y 
 
-validation $1 "MySql" 
+validation $1 "Update" 
+
+sudo yum install -y mariadb-server
+
+validation $1 "Mariadb-server" 
+
+sudo systemctl enable mariadb
+
+validation $1 "enables maria db " 
+
+sudo systemctl start mariadb
+
+validation $1 "started mariadb" 
+
+sudo mysql_secure_installation
+
+validation $1 "Secure Installation" 
+
