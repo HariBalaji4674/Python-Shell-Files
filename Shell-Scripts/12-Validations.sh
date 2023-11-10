@@ -6,7 +6,7 @@
 # $? == 1 --> Failure
 
 validation(){
-    if [ $1 -ne 0 ]
+    if [ $1 == 0 ]
     then
         echo "$2 is Failure"
     else
