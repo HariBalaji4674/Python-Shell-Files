@@ -14,4 +14,5 @@ Shell Scripts Session - 13:
     30:00 -- Functions in Shell Script
     41:00 -- Redirections in Shell Script
     47:00 -- Formatting In shell script
-
+    56:00 -- Coloring in shell Script
+    
