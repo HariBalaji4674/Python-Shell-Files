@@ -8,3 +8,4 @@ echo "var2 = ${var2}"
 
 echo "No of Arguments = $#"
 echo "All Arguments = $@"
+echo "Script Name is = $0"
