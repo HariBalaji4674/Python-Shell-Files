@@ -21,4 +21,4 @@ echo -e " $M hello World"
 echo -e " $C hello World"
 echo -e " $W hello World"
 
-echo -e "$R $0 , $M $# ,$C $@,$B $1,$Y $?"
+echo -e "$R $0 , $M $# ,$C $@,$B $1,$Y $?,$G $@"
