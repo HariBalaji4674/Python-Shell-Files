@@ -16,3 +16,21 @@ LogFile=/tmp/$ScriptName-$Date.log
 echo "My Script Name is = ${LogFile}"
 echo "Date is = ${Date}"
 echo "Script Name = ${ScriptName}"
+
+validation() {
+    if [ $1 -ne 0 ]
+    then
+        echo "$2 is Failure"
+        exit 1
+    else
+        echo "$2 is Success"
+    fi
+}
+
+sudo yum install jenkins -y &>> $LogFile
+
+validation $? "Jenkins"
+
+sudo yum install git -y &>> $LogFile
+
+validation $? "git" 
