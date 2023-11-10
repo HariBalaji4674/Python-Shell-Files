@@ -14,6 +14,7 @@ validation(){
     fi
 }
 
+
 sudo yum update -y 
 
 validation $? "Update" 
