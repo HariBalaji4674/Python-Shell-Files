@@ -8,10 +8,10 @@
 validation(){
     if [ $1 -ne 0 ]
     then
-        echo "Installation is Failure"
+        echo "$2 is Failure"
     else
-        echo "Installation is Success"
+        echo "$2 is Success"
     fi
 }
 
-validation 
+validation $1 "MySql" 
