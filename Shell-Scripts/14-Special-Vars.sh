@@ -37,3 +37,30 @@ validation $? "git"
 sudo yum install nginx -y &>> $LogFile
 
 validation $? "nginx" 
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo &>> $LogFile
+
+validation $? "jenkins Repo Adding"
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+validation $? "Importing the key"
+
+sudo yum upgrade
+
+validation $? "Upgrading is "
+
+# Add required dependencies for the jenkins package
+sudo yum install fontconfig java-17-openjdk -y 
+
+validation $? "Java Installation"
+
+sudo yum install jenkins -y 
+
+validation $? "jenkins"
+
+sudo systemctl daemon-reload
+
+validation $? "Daemon-reload "
+
