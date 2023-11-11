@@ -91,6 +91,27 @@ For Loops:
         echo "$i"
     done
 
+while loops:
+    initialization 
+    while(initalization -gt somenumber)
+    do
+    echo "print"
+    done
+
+Until Loops:
+    it will use till the particular condition is met
+
+Concepts :
+
+    Variables
+    Data Types
+    Loops
+    Conditions
+    Functions
+    SpecialVariables
+    Colors
+    
+
 
 
     
