@@ -12,6 +12,6 @@ else
     echo "Exited the Command"
 fi
 
-List=($ sudo yum list installed | wc -l)
+List=$(yum list installed | wc -l)
 
 echo "List Of Packages : $List"
