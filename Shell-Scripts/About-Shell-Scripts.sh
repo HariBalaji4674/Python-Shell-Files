@@ -80,5 +80,17 @@ Special Variables:
     $1 --> First Variable
     $2 --> Second Variable
 
+Loops In Shell Scripting:
+    for Loops
+    while Loops
+    do while Loops
+
+For Loops:
+    for i in {1..10}
+    do 
+        echo "$i"
+    done
+
+
 
     
