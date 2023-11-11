@@ -11,3 +11,5 @@ then
 else
     echo "Exited the Command"
 fi
+
+List=$(sudo yum list installed)
