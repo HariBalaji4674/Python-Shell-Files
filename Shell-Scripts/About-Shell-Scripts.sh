@@ -110,7 +110,10 @@ Concepts :
     Functions
     SpecialVariables
     Colors
-    
+
+Delete Files Older Than 14 days
+
+find <location-of-files> - name "*.log" -type f -mtime +14 | rm -rf
 
 
 

@@ -12,6 +12,6 @@ else
     echo "Exited the Command"
 fi
 
-List=$(yum list installed | wc -l)
+List=$(yum list installed | wc -l >> num.txt)
 
 echo "List Of Packages : $List"
