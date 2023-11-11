@@ -22,7 +22,9 @@ Shell Scripts Session - 14:
     00:00 -- Recap Session-13
     02:00 -- Install Packages
     26:00 -- Delete Old Logs Script
-    
+    47:00 -- Cron Tab Explanation
+ 01:08:00 -- Disk Usage Explanation
+
 
 
  

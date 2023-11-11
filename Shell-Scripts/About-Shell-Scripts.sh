@@ -116,5 +116,16 @@ Delete Files Older Than 14 days
 find <location-of-files> - name "*.log" -type f -mtime +14 | rm -rf
 
 
+SED --> Stream Editor In Linux
+
+    sed -i s/<search-word>/<replace-word>/g <file-name>
+
+    we can use anything as delimiter 
+    sed -i 's.<search-word>.<replace-word>g' <file-name> 
+    
+
+
+
+
 
     
