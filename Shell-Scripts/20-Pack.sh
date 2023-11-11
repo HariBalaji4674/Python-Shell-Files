@@ -13,3 +13,5 @@ else
 fi
 
 List=$(sudo yum list installed)
+
+echo "List Of Packages : $List"
