@@ -4,6 +4,7 @@ grep --> to find the text in file
 grep <word-to-find> <file-name>
 grep -i <word-to-find> <file-name> --> to find the word in case insensitive way
 grep --> global regular expression
+
 Piping Concepts:
 ----------------
     in piping one commands output is act as a another commands input 
