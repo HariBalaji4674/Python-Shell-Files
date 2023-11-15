@@ -1,4 +1,19 @@
-# ! Python Programming
+Shell Script Usages:
+    System Administration Tasks --> Managing Users ,Files,Directories,Process,System Services
+    Rapid-Prototyping --> Creating simple Solution for simple tasks
+    Text Manipulation --> Using sed command we can manipuate the text,add,delete,replace
+    Command Line Interactions --> To do Ad-Hoc Commands like Simple Commands
+    Environment Variables and Configuration --> Creating Environment Varibels amd Creating Configurations
+
+Python Scripting Usages:
+    Complex-Logic 
+    Cross-Platform Support
+    API Integration
+    Error Handling
+    ReUsable Code
+    Advanced Data Processing
+
+# Python Programming
 
 Dynamic Programming language
 
