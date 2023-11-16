@@ -22,4 +22,30 @@ How Many ways we can run Python Code:
 	
 First Python Program:
 print("Hello World")
+
+Comments:
+	Non Executable Code
+	Code Maintanence
+	
+Keywords:1
+----------
+Reserved Words in Python
+
+Variables:
+	A variable is nothing but a reserved memory location to store values
+	Variables are used to store the data and values
+	Memory Will be allocated when the values are stored in varaibles
+	Every Varrable mush have data type
+
+Data Types: Dynamically Assign the variable to value 
+Dynamic types programming language
+
+int 
+float
+str
+dict
+set
+tuple
+bool
+	
 	
