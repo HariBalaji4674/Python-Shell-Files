@@ -38,3 +38,4 @@
     ansible.builtin.systemd:
       name: jenkins
       state: started
+# To check the running logs we need to use tail -f /var/log/messages
