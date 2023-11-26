@@ -1,7 +1,7 @@
 print("This is starting line of program")
 
 try:
-    print(name)
+    print("name")
 except:
     print("Hello-World!!")
 else:
