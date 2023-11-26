@@ -15,3 +15,13 @@ class b(a):
 m1 = b()
 m1.inti()
 m1.namma()
+
+class human:
+    def myHu(self,name=None):
+        if name is not None:
+            print("Hello ",name)
+        else:
+            print("Hello")
+h = human()
+h.myHu()
+

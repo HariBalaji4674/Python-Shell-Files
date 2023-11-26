@@ -78,7 +78,20 @@ Objectives of Inheritance:
   3: Multi-Level Inheritance 
   4: Multiple Inheritance ( Multiple Parents)
   5: Heirarchy Inheritance
-  6: 
+Type of Inheritance:
+  1: Single Inheritance
+  2: Multiple Inheritance
+  3: Multi-Level Inheritance
+  4: Heirarchy Inheritance
+
+Over Loading: (Polymorphism)
+  On method can be defined in many froms.
+  One method can be callled many times 
+  Same Method name but different Parameters
+
+Modules :
+  A Collections of Functions, Classes (Variables + Methods)
+Packages :
 
 
 
