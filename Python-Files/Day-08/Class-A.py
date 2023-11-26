@@ -8,8 +8,9 @@ class b :
         print("Hello Mrs Hari Vardhan")
 
 class b(a):
-    def namma():
+    def namma(self):
         print("Hello World")
+        pass
 
 m1 = b()
 m1.inti()

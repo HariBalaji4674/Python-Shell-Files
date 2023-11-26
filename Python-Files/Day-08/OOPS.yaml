@@ -75,7 +75,10 @@ Class B(A) : x, y, z m3() Sub Class, Derived Class
 Objectives of Inheritance:
   1: Code Re-Usability
   2: Avoid Duplication
-  3: 
+  3: Multi-Level Inheritance 
+  4: Multiple Inheritance ( Multiple Parents)
+  5: Heirarchy Inheritance
+  6: 
 
 
 
