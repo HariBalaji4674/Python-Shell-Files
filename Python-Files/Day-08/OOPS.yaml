@@ -92,6 +92,30 @@ Over Loading: (Polymorphism)
 Modules :
   A Collections of Functions, Classes (Variables + Methods)
 Packages :
+  A Collections of Modules is called Packages
+
+How To create a Module
+How to call the functions from one module to another module
+Same Functions in multiple Modules
+
+Exception Handing : Program Errors : Syntax Error:
+  An Event which will cause a Program Termination
+  While Executing the program it will show some error
+
+try ,except,else, finally
+try: it will try to execute the code
+except: if try block got error then this except code will work
+else: if Except block doesn't execute then it will get executed
+finally: will execute every time 
+
+
+File Handling:
+  Working with text
+
+
+
+
+
 
 
 
