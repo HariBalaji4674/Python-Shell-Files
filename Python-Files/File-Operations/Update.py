@@ -1,3 +1,5 @@
-# File Operations : CRUD Operations Create Read Update Delete 
 
-# File Operations inpython read and Write P 
+import os
+file = open("C:/Users/KRISHNA HARI/DevOps/Python/Python-Files/File-Operations/text.txt", "r")
+
+print(file.read())
